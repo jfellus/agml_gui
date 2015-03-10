@@ -1,5 +1,11 @@
 #!/bin/sh
 
 f=`readlink -f $0`.nw
-echo $f 
+
+if [ -z "`which nw`" ]; then
+	echo "ERROR : Node-webkit is not installed. Please install it first"
+	exit 1
+fi
+
 nw $f
+
