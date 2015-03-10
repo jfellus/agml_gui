@@ -2,7 +2,7 @@
 
 f=`readlink -f $0`.nw
 
-if [ -z "`which nw`" ]; then
+if [ -z "`which nw 2>/dev/null`" ]; then
 	echo "ERROR : Node-webkit is not installed. Please install it first"
 	exit 1
 fi
