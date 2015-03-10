@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" href="../css/jquery-ui.css">
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/utils.js"></script>
+<script src="../js/main.js"></script>
+<link rel="stylesheet" href="../css/main.css">
+<title>AGML Debugger</title>
+</head>
+<body onload="main()">
+
+
+<div class="left"><div style="margin:20px;">
+<h1>AGML Monitor</h1>
+<div class="list" id="infos_providers">
+<div>AGML Infos providers</div>
+<ul class="content" contentEditable=true></ul>
+</div>
+
+<div class="list" id="eval_data">
+<div>AGML Evaluation data</div>
+<ul class="content" contentEditable=true></ul>
+</div>
+
+<div class="list red">
+<div>Errors</div>
+<div class="content" id="errors"></div>
+</div>
+</div>
+
+</div>
+<div style="position:fixed;height:100%;width:70%;left:30%;overflow-y:scroll;">
+<div id="top">
+</div>
+<ul id="content">
+</ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "agml_debugger",
+  "main": "html/index.html",
+  "window": {
+    "toolbar": false,
+    "width": 800,
+    "height": 600
+  }
+}

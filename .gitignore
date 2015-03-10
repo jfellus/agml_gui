@@ -1,0 +1,4 @@
+*.nw
+.project
+.cproject
+.settings/
